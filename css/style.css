@@ -7,8 +7,19 @@
  */
 
 nav ul a,
-nav .brand-logo {
-  color: #444;
+nav, .brand-logo {
+  /* color: #444; */
+  font-weight: bold;
+  font-size: 70px;
+  color: rgba(255,255,255,.9);
+}
+
+.brand-logo-desc {
+  /* color: #444; */
+  font-weight: bold;
+  font-size: 32px;
+
+  color: rgba(255,255,255,.9);
 }
 
 p {
@@ -50,6 +61,10 @@ p {
 }
 .icon-block .material-icons {
   font-size: inherit;
+}
+
+body {
+  font-family: 'Anaheim';font-size: 22px;
 }
 
 footer.page-footer {
